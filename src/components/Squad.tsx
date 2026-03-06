@@ -17,7 +17,7 @@ export default function Squad() {
             Prva <span className="text-blue-600">Ekipa</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Spoznajte fante, ki s ponosom nosijo dres ŠNK Gorišnica.
+            Spoznajte fante, ki s ponosom nosijo dres ŠN Gorišnica.
           </p>
         </div>
 

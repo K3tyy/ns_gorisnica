@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Facebook, Instagram, Shield } from 'lucide-react';
+import { Menu, X, Facebook, Instagram } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -33,11 +33,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-3 group">
-              <div className="bg-blue-600 p-1.5 rounded-lg group-hover:bg-blue-500 transition-colors">
-                <Shield className="w-6 h-6 text-white fill-current" />
-              </div>
               <span className="text-2xl font-display font-bold text-white tracking-tighter uppercase italic">
-                ŠNK <span className="text-blue-500 group-hover:text-blue-400 transition-colors">Gorišnica</span>
+                ŠN <span className="text-blue-500 group-hover:text-blue-400 transition-colors">Gorišnica</span>
               </span>
             </Link>
           </div>

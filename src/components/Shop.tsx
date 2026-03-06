@@ -8,7 +8,7 @@ const products = [
     price: "45,00 €",
     image: "https://images.unsplash.com/photo-1577212017184-80cc0da11373?q=80&w=2575&auto=format&fit=crop",
     category: "Dresi",
-    description: "Uradni domači dres ŠNK Gorišnica za sezono 2025/26. Modra barva s ponosom."
+    description: "Uradni domači dres ŠN Gorišnica za sezono 2025/26. Modra barva s ponosom."
   },
   {
     id: 2,

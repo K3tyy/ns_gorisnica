@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
             <h2 className="text-2xl font-display font-bold uppercase italic tracking-tighter mb-4">
-              ŠNK <span className="text-blue-600">Gorišnica</span>
+              ŠN <span className="text-blue-600">Gorišnica</span>
             </h2>
             <p className="text-gray-400 max-w-sm">
               Uradna spletna stran Športnega nogometnega kluba Gorišnica. Spremljajte nas na družbenih omrežjih za najnovejše novice in rezultate.
@@ -38,7 +38,7 @@ export default function Footer() {
         
         <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} ŠNK Gorišnica. Vse pravice pridržane.
+            &copy; {new Date().getFullYear()} ŠN Gorišnica. Vse pravice pridržane.
           </p>
 
           <div className="flex items-center gap-2 text-gray-500 text-sm">

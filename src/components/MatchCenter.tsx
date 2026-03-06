@@ -6,17 +6,17 @@ export default function MatchCenter() {
   const upcomingMatch = {
     date: "15. Marec 2026",
     time: "15:00",
-    homeTeam: "ŠNK Gorišnica",
+    homeTeam: "ŠN Gorišnica",
     awayTeam: "NK Rudar",
     location: "Športni park Gorišnica",
     competition: "1. MNZ Ptuj"
   };
 
   const lastResults = [
-    { home: "ŠNK Gorišnica", away: "NK Podvinci", score: "2 - 1", date: "08.03.26" },
-    { home: "NK Drava", away: "ŠNK Gorišnica", score: "1 - 1", date: "01.03.26" },
-    { home: "ŠNK Gorišnica", away: "NK Aluminij", score: "0 - 2", date: "22.02.26" },
-    { home: "NK Zavrč", away: "ŠNK Gorišnica", score: "1 - 3", date: "15.02.26" },
+    { home: "ŠN Gorišnica", away: "NK Podvinci", score: "2 - 1", date: "08.03.26" },
+    { home: "NK Drava", away: "ŠN Gorišnica", score: "1 - 1", date: "01.03.26" },
+    { home: "ŠN Gorišnica", away: "NK Aluminij", score: "0 - 2", date: "22.02.26" },
+    { home: "NK Zavrč", away: "ŠN Gorišnica", score: "1 - 3", date: "15.02.26" },
   ];
 
   return (
@@ -47,7 +47,7 @@ export default function MatchCenter() {
                   <div className="text-center w-1/3">
                     <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 bg-white/10 rounded-full mx-auto mb-4 flex items-center justify-center p-2 sm:p-4">
                        {/* Placeholder Logo */}
-                       <span className="text-xl sm:text-2xl font-bold text-blue-900">ŠNK</span>
+                       <span className="text-xl sm:text-2xl font-bold text-blue-900">ŠN</span>
                     </div>
                     <h4 className="font-display font-bold text-base sm:text-lg md:text-xl">{upcomingMatch.homeTeam}</h4>
                   </div>
@@ -99,9 +99,9 @@ export default function MatchCenter() {
                     <div className="flex items-center gap-4 flex-1">
                       <span className="text-xs text-gray-500 font-mono">{match.date}</span>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-8 w-full">
-                        <span className={`font-semibold ${match.home === "ŠNK Gorišnica" ? "text-white" : "text-gray-400"}`}>{match.home}</span>
+                        <span className={`font-semibold ${match.home === "ŠN Gorišnica" ? "text-white" : "text-gray-400"}`}>{match.home}</span>
                         <span className="bg-slate-900 px-3 py-1 rounded font-mono font-bold text-blue-500 whitespace-nowrap">{match.score}</span>
-                        <span className={`font-semibold ${match.away === "ŠNK Gorišnica" ? "text-white" : "text-gray-400"}`}>{match.away}</span>
+                        <span className={`font-semibold ${match.away === "ŠN Gorišnica" ? "text-white" : "text-gray-400"}`}>{match.away}</span>
                       </div>
                     </div>
                   </div>

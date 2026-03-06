@@ -25,7 +25,7 @@ export default function Hero() {
             Ponos in strast od leta 1946
           </h2>
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-black text-white uppercase italic tracking-tighter mb-6">
-            ŠNK <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-700">Gorišnica</span>
+            ŠN <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-700">Gorišnica</span>
           </h1>
           <p className="text-gray-300 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light px-4">
             Srce na igrišču, duša na tribuni. Pridružite se nam na poti do novih zmag.

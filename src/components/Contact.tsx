@@ -38,7 +38,7 @@ export default function Contact() {
                 
                 <div className="flex items-start gap-4">
                   <div className="bg-blue-100 p-3 rounded-full text-blue-600">
-                    <Phone className="w-6 h-6" />
+                    <Phone className="w-6 h-5" />
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">Telefon</h4>
