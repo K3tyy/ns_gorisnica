@@ -11,10 +11,10 @@ const seasons = [
 
 const galleryData = {
   '2025-26': [
-    "https://images.unsplash.com/photo-1551958219-acbc608c6377?q=80&w=2670&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1522778119026-d647f0565c6a?q=80&w=2670&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=2670&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?q=80&w=2670&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=2542&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=2670&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1575361204480-aadea25d46f3?q=80&w=2670&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?q=80&w=2542&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1551958219-acbc608c6377?q=80&w=2670&auto=format&fit=crop"
   ],
