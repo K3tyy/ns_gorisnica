@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      console.log('404.html loaded, path:', window.location.pathname);
+      const path = window.location.pathname + window.location.search + window.location.hash;
+      const base = '/ns_gorisnica';
+      const newPath = path.startsWith(base) ? path.slice(base.length) || '/' : '/';
+      console.log('saving redirect:', newPath);
+      sessionStorage.setItem('redirect', newPath);
+      window.location.replace('https://k3tyy.github.io/ns_gorisnica/');
+    </script>
+  </head>
+</html>

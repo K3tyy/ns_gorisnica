@@ -12,7 +12,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/ns_gorisnica">
       <ScrollToTop />
       <div className="min-h-screen bg-slate-50 font-sans selection:bg-blue-600 selection:text-white">
         <Navbar />

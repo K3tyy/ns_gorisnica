@@ -114,7 +114,7 @@ export default function Shop() {
             Za več informacij nas lahko kontaktirate ali obiščete v času uradnih ur.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/kontakt" className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-blue-600 text-white font-bold uppercase tracking-wider rounded hover:bg-blue-700 transition-colors">
+            <a href="/ns_gorisnica/kontakt" className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-blue-600 text-white font-bold uppercase tracking-wider rounded hover:bg-blue-700 transition-colors">
               Kontaktni podatki
             </a>
           </div>
