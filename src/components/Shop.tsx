@@ -6,7 +6,7 @@ const products = [
     id: 1,
     name: "Domači Dres 2025/26",
     price: "45,00 €",
-    image: "https://images.unsplash.com/photo-1577212017184-80cc0da11373?q=80&w=2575&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg",
     category: "Dresi",
     description: "Uradni domači dres ŠN Gorišnica za sezono 2025/26. Modra barva s ponosom."
   },
@@ -14,7 +14,7 @@ const products = [
     id: 2,
     name: "Gostujoči Dres 2025/26",
     price: "45,00 €",
-    image: "https://images.unsplash.com/photo-1529310095874-539414008463?q=80&w=2574&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/18257675/pexels-photo-18257675.jpeg",
     category: "Dresi",
     description: "Uradni gostujoči dres v beli barvi. Eleganca na vsakem koraku."
   },
@@ -22,7 +22,7 @@ const products = [
     id: 3,
     name: "Navijaški Šal",
     price: "15,00 €",
-    image: "https://images.unsplash.com/photo-1565158842722-1d2279769363?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/3605077/pexels-photo-3605077.jpeg",
     category: "Dodatki",
     description: "Klasičen pleten šal z grbom kluba. Obvezen del opreme vsakega navijača."
   },
@@ -46,7 +46,7 @@ const products = [
     id: 6,
     name: "Navijaška Zastava",
     price: "20,00 €",
-    image: "https://images.unsplash.com/photo-1532509854226-a2d9d8e66f8e?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/12541589/pexels-photo-12541589.jpeg",
     category: "Dodatki",
     description: "Velika zastava za prave navijače. Pokaži svojo pripadnost!"
   }

@@ -37,16 +37,18 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} ŠN Gorišnica. Vse pravice pridržane.
-          </p>
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+            <p className="text-gray-500 text-sm">
+              &copy; {new Date().getFullYear()} ŠN Gorišnica. Vse pravice pridržane.
+            </p>
 
-          <div className="flex items-center gap-2 text-gray-500 text-sm">
-             <span className="hidden md:inline text-slate-700">|</span>
-             <span>Designed by</span>
-             <a href="#" className="hover:opacity-80 transition-opacity">
-               <img src="https://placehold.co/20x20/3b82f6/ffffff?text=D" alt="logo" className="h-5 w-5 rounded-full" />
-             </a>
+            <div className="flex items-center gap-2 text-gray-500 text-sm">
+               <span className="hidden md:inline text-slate-700">|</span>
+               <span>Designed by</span>
+               <a href="#" className="hover:opacity-80 transition-opacity">
+                 <img src="https://placehold.co/20x20/3b82f6/ffffff?text=D" alt="logo" className="h-5 w-5 rounded-full" />
+               </a>
+            </div>
           </div>
 
           <div className="flex gap-4">
